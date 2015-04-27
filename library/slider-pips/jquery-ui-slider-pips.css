@@ -5,7 +5,9 @@
     
     /* increase bottom margin to fit the pips */
     .ui-slider-horizontal.ui-slider-pips { 
-        margin-bottom: 1.4em; 
+        margin-bottom: 2em;
+        margin-left: 3em;
+		width: 40%;
     }
 
     /* default hide the labels and pips that arnt visible */
@@ -65,7 +67,6 @@
         top: 5px;
         left: 50%;
         margin-left: -7em;
-        margin-bottom: 1em;
         width: 20em;
     }
 
@@ -331,21 +332,6 @@
         right: auto;
         left: -11px;
     }
-
-
-
-
-
-	/* CUSTOMISED */
-	.ui-slider-horizontal.ui-slider-pips{
-		margin-left: 3em;
-		width: 40%;
-	}
-
-
-
-
-
 
 
 
