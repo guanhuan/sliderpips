@@ -61,11 +61,11 @@
     /* the text label postion & size */
     /* it overflows so no need for width to be accurate */
     .ui-slider-pips .ui-slider-label {
-        position: absolute;
+        position: relative;
         top: 5px;
         left: 50%;
         margin-left: -1em;
-        width: 2em;
+        width: 16em;
     }
 
     /* make it easy to see when we hover a label */
@@ -339,7 +339,8 @@
 
 	/* CUSTOMISED */
 	.ui-slider-horizontal.ui-slider-pips{
-		width: 50%;
+		margin-left: 3em;
+		width: 40%;
 	}
 
 
