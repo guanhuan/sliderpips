@@ -115,7 +115,7 @@ function sliderpips_civicrm_alterSettingsFolders(&$metaDataFolders = NULL) {
  */
 function sliderpips_civicrm_alterTemplateFile($formName, &$form, $context, &$tplName) {
   if($formName=="CRM_Event_Form_Registration_Register"||$formName=="CRM_Event_Form_Registration_AdditionalParticipant"){
-  CRM_Core_Resources::singleton()->addScriptFile('uk.co.compucorp.civicrm.sliderpips', 'library/slider-pips/jquery-ui-slider-pips.js');
+  CRM_Core_Resources::singleton()->addScriptFile('uk.co.compucorp.civicrm.sliderpips', 'library/slider-pips/jquery-ui-slider-pips.js', 200, "html-header");
   CRM_Core_Resources::singleton()->addStyleFile('uk.co.compucorp.civicrm.sliderpips', 'library/slider-pips/jquery-ui-slider-pips.css');
   }
 }
