@@ -337,7 +337,10 @@
 
 
 
-
+	/* CUSTOMISED */
+	.ui-slider-horizontal.ui-slider-pips{
+		width: 50%;
+	}
 
 
 
